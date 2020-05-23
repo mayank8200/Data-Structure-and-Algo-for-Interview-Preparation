@@ -11,6 +11,7 @@ int main()
 {
     int n1,n2;
     cin >> n1 >> n2;
-    cout << gcd(n1,n2) << endl;
+    int a = gcd(n1,n2);
+    cout << ((long long)n1*n2/a) << endl;
     return 0;
 }
